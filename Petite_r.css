@@ -1,0 +1,37 @@
+header
+{
+    display: none;
+}
+.contenu_right
+{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.F1 {
+    display: flex;
+    flex-direction: column;
+}
+.F2 {
+    display: flex;
+    flex-direction: column;
+}
+.F3 {
+    display: flex;
+    flex-direction: column;
+}
+.E1
+{
+display: flex;
+flex-direction: column;
+}
+.E2
+{
+display: flex;
+flex-direction: column;
+}
+.E3
+{
+display: flex;
+flex-direction: column;
+}

@@ -1,0 +1,261 @@
+/* MAIN */
+
+@font-face 
+{
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2
+{
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+}
+*{
+    color: #4E342E
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+body section:nth-child(1) {
+    flex: 1.5;
+    width: 70%;
+}
+body section:nth-child(2) {
+    flex: 3.5;
+    width: 30%;
+}
+body{
+    margin: 0;
+}
+ul {
+    list-style-type: '-';
+    margin-left:0;
+    padding-left:0;
+    }
+header
+{
+    display: none;
+}
+/* LEFT SECTION */
+
+
+.contenu_left {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #FFC107;
+    display: flex;
+}
+.contenu_left article:nth-of-type(1) {
+    height: 180px;
+}
+.contenu_left article:nth-of-type(2) {
+    height: 260px;
+}
+.contenu_left article:nth-of-type(3) {
+    flex: 1;
+}
+.contenu_left article:nth-of-type(4) {
+    height: 100px;
+}
+img {
+    border-radius: 150px / 150px;
+}
+.Photo {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 20px;
+    padding: 20px;
+}
+.Contact {
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+.Apropos {
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+.Loisirs {
+    display: flex;
+    flex-direction: row;
+}
+.contenu_left h2
+{
+    color:  #FFC107;
+    background-color: #4E342E;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    vertical-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* RIGHT SECTION */
+
+
+.contenu_right {
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+/* HEADER */
+
+
+.header {
+    text-align: left;
+    width: 80%;
+    margin-bottom: 30px;
+}
+h1 {
+    width: 80%;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: black
+}
+h1 span {
+    color: #FFC107;
+}
+strong {
+    font-size: 25px;
+    text-align: left;
+    width: 80%;
+}
+strong span {
+    border-bottom: 2px solid  #FFC107;
+}
+
+/* RIGHT MAIN */
+
+.Experience {
+    width: 80%;
+}
+.E1 {
+    display: flex;
+    flex-direction: row;
+}
+.E2 {
+    display: flex;
+    flex-direction: row;
+}
+.E3 {
+    display: flex;
+    flex-direction: row;
+}
+.E1 div:nth-of-type(1) {
+    flex: 1;
+    padding-right: 10px;
+}
+.E2 div:nth-of-type(1) {
+    flex: 1;
+    padding-right: 10px;
+}
+.E3 div:nth-of-type(1) {
+    flex: 1;
+    padding-right: 10px;
+}
+.E1 div:nth-of-type(2) {
+    flex: 2;
+    padding-left: 10px;
+}
+.E2 div:nth-of-type(2) {
+    flex: 2;
+    padding-left: 10px;
+}
+.E3 div:nth-of-type(2) {
+    flex: 2;
+    padding-left: 10px;
+}
+
+.Competences {
+    width: 80%;
+}
+.Formation {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.F1 {
+    display: flex;
+    flex-direction: row;
+}
+.F2 {
+    display: flex;
+    flex-direction: row;
+}
+.F3 {
+    display: flex;
+    flex-direction: row;
+}
+.F1 div:nth-of-type(1) {
+    flex: 1;
+    padding-right: 10px;
+}
+.F2 div:nth-of-type(1) {
+    flex: 1;
+    padding-right: 10px;
+}
+.F3 div:nth-of-type(1) {
+    flex: 1;
+    padding-right: 10px;
+}
+.F1 div:nth-of-type(2) {
+    flex: 2;
+    padding-left: 10px;
+}
+.F2 div:nth-of-type(2) {
+    flex: 2;
+    padding-left: 10px;
+}
+.F3 div:nth-of-type(2) {
+    flex: 2;
+    padding-left: 10px;
+}
+.Recommandations {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.Recommandations div:nth-of-type(1) {
+    flex: 2;
+}
+.Recommandations div:nth-of-type(2) {
+    flex: 2;
+}
+.contenu_right h2 {
+    color: black;
+    background-color: white;
+    border-bottom: 2px solid  #FFC107;
+    text-align: left;
+    width: 80%;
+    vertical-align: center;
+    text-transform: uppercase
+}
+.contenu_right h3 {
+    text-transform: uppercase;
+}
+h3 + p {
+    font-size: 17px;
+}
+h4  {
+    margin-bottom: 0;
+}
+h4 + p {
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 25px;
+}
