@@ -1,3 +1,7 @@
+.contenu_left article:nth-of-type(1) {
+    height: 150px;
+    margin-bottom: 12px;
+}
 body
 {
     display: flex;
@@ -21,4 +25,8 @@ header
 .header
 {
     display: none;
+}
+h2 
+{
+    font-size: 18px;
 }

@@ -1,6 +1,13 @@
+img {
+    height: 180px;
+    width: 180px;
+}
 header
 {
     display: none;
+}
+.contenu_left article:nth-of-type(1) {
+    height: 155px;
 }
 .contenu_right
 {
