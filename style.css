@@ -1,22 +1,8 @@
 /* MAIN */
 
-@font-face 
-{
-    font-family: 'droid_sansregular';
-    src: url('DroidSans-webfont.eot');
-    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DroidSans-webfont.woff') format('woff'),
-         url('DroidSans-webfont.ttf') format('truetype'),
-         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-h1, h2
-{
-    font-family: 'droid_sansregular', 'Arial', sans-serif;
-}
 *{
     color: #4E342E
+    font-family: 'Lato', sans-serif;
 }
 body {
     display: flex;
