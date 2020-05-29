@@ -35,3 +35,7 @@ flex-direction: column;
 display: flex;
 flex-direction: column;
 }
+.Recommandations
+{
+    flex-direction: column;
+}
