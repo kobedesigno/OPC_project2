@@ -1,6 +1,11 @@
-header
-{
-    display: none;
+body section:nth-child(1) {
+    width: 35%;
+}
+body section:nth-child(2) {
+    width: 65%;
+}
+.contenu_left article:nth-of-type(2) {
+    height: 365px;
 }
 .contenu_right
 {
@@ -35,7 +40,7 @@ flex-direction: column;
 display: flex;
 flex-direction: column;
 }
-.Recommandations
+.Recommandations_info
 {
     flex-direction: column;
 }

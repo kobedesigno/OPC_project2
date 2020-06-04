@@ -1,3 +1,9 @@
+body section:nth-child(1) {
+    width: 30%;
+}
+body section:nth-child(2) {
+    width: 70%;
+}
 *,h2,h3,h4,h5
 {
     font-size: xx-large;
@@ -17,11 +23,15 @@ h3 + p {
     height: 180px;
 }
 .contenu_left article:nth-of-type(2) {
-    height: 500px;
+    height: 600px;
 }
 .contenu_left article:nth-of-type(3) {
     flex: 1;
 }
 .contenu_left article:nth-of-type(4) {
     height: 180px;
+}
+.contenu_left p
+{
+    padding-top: 20px;
 }

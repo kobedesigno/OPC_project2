@@ -1,78 +1,116 @@
-/* MAIN */
+    /* MAIN */
 
 
-*{
-    font-family: Lato, sans-serif;
-    color: #4E342E
-}
 body {
     display: flex;
     flex-direction: row;
+    font-family: Lato, sans-serif;
+    color: #4E342E
 }
 body section:nth-child(1) {
-    flex: 1.5;
-    width: 70%;
-}
-body section:nth-child(2) {
-    flex: 3.5;
     width: 30%;
 }
-body{
+body section:nth-child(2) {
+    width: 70%;
+}
+body
+{
     margin: 0;
 }
-ul {
+ul 
+{
     list-style-type: '-';
     margin-left:0;
     padding-left:0;
-    }
-header
+}
+
+
+
+/* HEADER RIGHT AND LEFT */
+
+
+.contenu_right header
+{
+    text-align: left;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.contenu_left header
 {
     display: none;
 }
+h1 {
+    width: 80%;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: black;
+}
+h1 span {
+    color: #FFC107;
+}
+strong {
+    font-size: 25px;
+    text-align: left;
+    width: 80%;
+}
+strong span {
+    border-bottom: 2px solid  #FFC107;
+}
+
 /* LEFT SECTION */
 
-
 .contenu_left {
-    display: block;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background-color:  #FFC107;
-    display: flex;
 }
 .contenu_left article:nth-of-type(1) {
-    height: 180px;
+    height: 190px;
+    width: 100%;
 }
 .contenu_left article:nth-of-type(2) {
-    height: 260px;
+    height: 350px;
+    width: 100%;
+    word-wrap:break-word;
 }
 .contenu_left article:nth-of-type(3) {
     flex: 1;
+    width: 100%;
 }
 .contenu_left article:nth-of-type(4) {
-    height: 100px;
+    height: 200px;
+    width: 100%;
 }
 img {
     border-radius: 150px / 150px;
 }
 .Photo {
+    text-align: center;
     display: table-cell;
     vertical-align: middle;
-    margin: 20px;
-    padding: 20px;
+    margin: 15px;
+    padding: 15px;
+    width: 100%;
 }
-.Contact {
-    margin: 20px;
-    padding: 20px;
+.Contact p
+{
     font-weight: bold;
 }
-.Apropos {
-    margin: 20px;
-    padding: 20px;
+.Apropos p
+{
     text-align: justify;
 }
-.Loisirs {
+.Loisirs p
+{
+    text-align: center;
+}
+
+.Loisirs_icons
+{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .contenu_left h2
 {
@@ -85,10 +123,22 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.contenu_left p
+{
+    margin: 5px 20px ;
+    padding: 5px 20px;
+}
+.Photo h2
+{
+    display: none;
+}
+.Contact h2
+{
+    width: 100%;
+}
 
 
 /* RIGHT SECTION */
-
 
 .contenu_right {
     display: flex;
@@ -97,32 +147,6 @@ img {
     justify-content: space-around;
     align-items: center;
     width: 80%;
-}
-
-/* HEADER */
-
-
-.header {
-    text-align: left;
-    width: 80%;
-    margin-bottom: 30px;
-}
-h1 {
-    width: 80%;
-    font-size: 42px;
-    text-transform: uppercase;
-    color: black
-}
-h1 span {
-    color: #FFC107;
-}
-strong {
-    font-size: 25px;
-    text-align: left;
-    width: 80%;
-}
-strong span {
-    border-bottom: 2px solid  #FFC107;
 }
 
 /* RIGHT MAIN */
@@ -212,23 +236,27 @@ strong span {
     flex: 2;
     padding-left: 10px;
 }
-.Recommandations {
+.Recommandations
+{
     width: 80%;
+}
+.Recommandations_info 
+{
     display: flex;
     flex-direction: row;
 }
-.Recommandations div:nth-of-type(1) {
-    flex: 2;
+.Recommandations_info div:nth-of-type(1) {
+    flex: 1;
 }
-.Recommandations div:nth-of-type(2) {
-    flex: 2;
+.Recommandations_info div:nth-of-type(2) {
+    flex: 1;
 }
 .contenu_right h2 {
     color: black;
     background-color: white;
     border-bottom: 2px solid  #FFC107;
     text-align: left;
-    width: 80%;
+    width: 100%;
     vertical-align: center;
     text-transform: uppercase
 }
